@@ -1,0 +1,8 @@
+{
+  "name": "docflow",
+  "description": "Workflow that keeps feature documentation in sync with code. Claude Code automatically maintains docs when you write code.",
+  "version": "1.0.0",
+  "author": {
+    "name": "linfx7"
+  }
+}
