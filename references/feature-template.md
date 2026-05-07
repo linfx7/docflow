@@ -1,8 +1,3 @@
----
-id: "<YYMMDD-feature-name>"
-name: <feature-name>
----
-
 ## Behavioral Contract
 - <observable behavior description>
 

@@ -45,8 +45,7 @@ Run all checks below, then present a summary table. If nothing found, tell the u
 **Index integrity checks:**
 
 7. **INDEX/doc mismatch**: docs in `docs/features/` without INDEX entry, or INDEX entries without a doc file.
-8. **ID consistency**: verify ID matches across filename, doc YAML frontmatter, and INDEX.md.
-9. **Duplicate IDs**: same ID used by multiple features in INDEX.md.
+8. **Duplicate IDs**: same ID used by multiple features in INDEX.md.
 
 ### Resolve
 
@@ -62,7 +61,6 @@ For each inconsistency, use `AskUserQuestion` to let the user choose:
 | Stale planned | (a) Keep (b) Remove feature entirely (c) Skip |
 | Orphan doc | (a) Add to INDEX.md (b) Delete doc (c) Skip |
 | Missing doc | (a) Create from `references/feature-template.md` (b) Remove INDEX entry (c) Skip |
-| ID mismatch | (a) Fix all to INDEX.md ID (b) Fix all to filename ID (c) Skip |
 | Duplicate IDs | (a) Reassign one to new ID (b) Skip |
 
 Apply all confirmed resolutions. Refresh md5 hashes for updated associations.
